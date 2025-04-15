@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Combo Favorite</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: url('https://asset.kompas.com/crops/2gF82N6Ah8nwUrZr3Cgh3NGYzKw=/0x0:1000x667/1200x800/data/photo/2022/04/20/625f48e352055.jpeg') no-repeat center center;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .menu-header-main {
+            font-size: 36px;
+            color: #ff0000;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 900px;
+            background: rgba(255, 245, 235, 0.9);
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .menu-left {
+            width: 50%;
+            padding-right: 20px;
+        }
+        .menu-header {
+            font-size: 32px;
+            color: #ff0000;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-text h3 {
+            font-size: 22px;
+            color: #ff0000;
+        }
+        .menu-text p {
+            font-size: 14px;
+            color: #555;
+        }
+        .menu-price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff0000;
+        }
+        .menu-right {
+            width: 50%;
+            background: url('https://statik.tempo.co/data/2024/12/11/id_1361226/1361226_720.jpg') no-repeat center center;
+            background-size: cover;
+            border-radius: 10px;
+            min-height: 400px;
+        }
+        @media screen and (max-width: 768px) {
+            .menu-container {
+                flex-direction: column;
+            }
+            .menu-left, .menu-right {
+                width: 100%;
+                padding: 0;
+            }
+            .menu-right {
+                min-height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-header-main">AYAM TERKEPIT FARHAN</div>
+    <div class="menu-container">
+        <div class="menu-left">
+            <div class="menu-header">MENU MAKANAN</div>
+            <div class="menu-item">
+                <div class="menu-text">
+                    <h3>Combo Fire Chicken</h3>
+                    <p>Ayam pedas lezat dengan nasi dan minuman</p>
+                    <div class="menu-price">Rp 42.727</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-text">
+                    <h3>Combo Fire Wings</h3>
+                    <p>Sayap ayam pedas dengan saus spesial</p>
+                    <div class="menu-price">Rp 43.636</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-text">
+                    <h3>Combo Duo Fire Chicken</h3>
+                    <p>Dua potong ayam pedas untuk berbagi</p>
+                    <div class="menu-price">Rp 61.818</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-text">
+                    <h3>Combo Fire Drum Stick</h3>
+                    <p>Drum stick ayam pedas dengan saus spesial</p>
+                    <div class="menu-price">Rp 58.272</div>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-text">
+                    <h3>Combo Cheese Crackling</h3>
+                    <p>Ayam krispi dengan keju leleh</p>
+                    <div class="menu-price">Rp 46.364</div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-right"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout On Page</title>
+    <style>
+.header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+}
+
+.atas {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(to right, #4facfe, #2209db);
+    color: white;
+}
+.bawah {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(to right, #4facfe, #95db09);
+    color: white;
+}
+.footer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    background: linear-gradient(to right, #4facfe, #05f063);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <a href="#atas">ATAS</a> || <a href="#bawah">BAWAH</a>  ||   <a href="#footer">KAKI</a>
+    <div class="atas"><a href="#bawah">Ini Space Atas  - Klik untuk ke Bawah</a></div>
+    <div class="bawah" id="bawah"><a href="#footer">Ini Space Bawah  - Klik untuk ke Footer</a></div>
+    <div class="footer" id="footer"><a href="#atas">Footer  - Klik untuk ke Atas</a></div>
+</body>
+</html>
